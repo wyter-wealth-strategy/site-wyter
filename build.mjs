@@ -34,6 +34,7 @@ function vars(html, meta, url) {
     NAV_ATUAL: meta.nav || '',
     SOCIAL: social,
     EMAIL: cfg.email,
+    EMAIL_LGPD: cfg.emailLgpd || cfg.email,
     CNPJ: cfg.cnpj,
     CIDADE: cfg.cidade,
     TEL: cfg.whatsappExibicao,
